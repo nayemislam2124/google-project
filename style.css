@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:arial;
+}
+section{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+section header{
+    position:absolute;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    padding:20px;
+}
+section header ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+section header ul li{
+    list-style:none;
+    margin-left:20px;
+}
+section header ul li a{
+    text-decoration:none;
+    color:black;
+    
+}
+section header ul li button{
+    background:rgb(0, 115, 255);
+    border:none;
+    outline:none;
+    padding:8px 15px;
+    border-radius:3px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    font-size:15px;
+}
+section .main{
+    width:580px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+section .main .searchbox{
+    position:relative;
+    width:100%;
+    margin-top:20px;
+}
+section .main .searchbox .search{
+    width:600px;
+    height:40px;
+    border-radius:30px;
+    border:0.5px solid rgba(53, 51, 51, 0.138);
+    
+}
+.icons .mic-icon{
+    position:relative;
+    left:574px;
+    top:-50px;
+    width:14px;
+}
+.icons .search-icon{
+    position:relative;
+    top:-29px;
+    left:13px;
+    width:17px;
+}
+.buttons button{
+    border:none;
+    padding:10px 30px;
+    font-size:15px;
+    font-family:arial;
+    background:rgba(128, 128, 128, 0.152);
+    border-radius:3px;
+    
+}
+.lang{
+    margin-top:20px;
+}
